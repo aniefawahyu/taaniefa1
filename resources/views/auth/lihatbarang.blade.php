@@ -640,11 +640,13 @@
     <section class="hero">
         <div class="container hero-wrapper">
             <div class="hero-content reveal active">
-                <div class="hero-badge">Katalog Produk Pallet</div>
-                <h1>Pilih pallet yang tepat untuk <span>kebutuhan distribusi dan gudang Anda</span></h1>
-                <p>
-                    Halaman ini dirancang agar pelanggan dapat melihat gambaran produk secara cepat namun tetap menarik. Kami menampilkan tiga contoh pallet dengan visual berbentuk persegi 1:1, deskripsi yang jelas, serta tata letak yang nyaman dilihat agar calon pembeli lebih mudah memahami manfaat setiap produk.
-                </p>
+                <div class="hero-badge">Katalog Produk IBC</div>
+                <h1>Pilih IBC Tank yang tepat untuk <span>kebutuhan penyimpanan dan distribusi Anda</span></h1>
+                    <p>
+                        Temukan solusi penyimpanan cairan yang aman dan efisien dengan IBC Tank berkualitas tinggi. 
+                        Dirancang untuk kebutuhan industri modern, IBC Tank kami kuat, tahan lama, dan mudah dalam proses pemindahan maupun penyimpanan. 
+                        <b>Tersedia opsi custom sesuai kebutuhan, mulai dari alas pallet, rangka, hingga spesifikasi penggunaan.</b>
+                    </p>
                 <div class="hero-buttons">
                     <a href="{{ route('login') }}" class="btn btn-primary">Pesan Sekarang</a>
                     <a href="#produk" class="btn btn-outline">Lihat Detail Produk</a>
@@ -654,7 +656,8 @@
             <div class="hero-visual reveal active">
                 <div class="visual-card">
                     <div class="main-square">
-                        <div class="pallet-illustration">
+                        <img src="{{ asset('img/ibc.jpg') }}" alt="IBC Tank" style="width: 370px" height="370px">
+                        {{-- <div class="pallet-illustration">
                             <div class="pallet-top"></div>
                             <div class="pallet-strip strip-1"></div>
                             <div class="pallet-strip strip-2"></div>
@@ -662,11 +665,14 @@
                             <div class="pallet-leg leg-1"></div>
                             <div class="pallet-leg leg-2"></div>
                             <div class="pallet-leg leg-3"></div>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="visual-caption">
-                        <h3>Contoh Tampilan Produk</h3>
-                        <p>Visual ini dapat diganti dengan foto pallet asli kapan saja tanpa mengubah struktur desain halaman.</p>
+                        <h3>IBC Tank Berkualitas</h3>
+                        <p>
+                            IBC Tank berkualitas tinggi untuk solusi penyimpanan cairan yang aman, kuat, dan efisien. 
+                            Cocok untuk berbagai kebutuhan industri dan distribusi.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -674,119 +680,106 @@
     </section>
 
     <section class="section" id="produk">
-        <div class="container">
-            <h2 class="section-title reveal">Pilihan Produk Pallet</h2>
-            <p class="section-subtitle reveal">
-                Tiga contoh berikut disusun untuk memberi kesan visual yang kuat sekaligus membantu pelanggan memahami karakter produk. Anda dapat mengganti nama, spesifikasi, dan gambar nanti sesuai stok yang sebenarnya.
-            </p>
+    <div class="container">
+        <h2 class="section-title reveal">Pilihan Produk IBC Tank</h2>
+        <p class="section-subtitle reveal">
+            Kami menyediakan tiga pilihan IBC Tank berdasarkan kualitas dan kebutuhan penggunaan. 
+            Setiap tipe memiliki keunggulan masing-masing yang dapat disesuaikan dengan kebutuhan industri Anda.
+        </p>
 
-            <div class="showcase">
-                <div class="showcase-item reveal">
-                    <div class="showcase-media">
-                        <div class="product-square">
-                            <div class="badge-label">Pallet 01</div>
-                            <div class="pallet-box">
-                                <div class="top"></div>
-                                <div class="slat s1"></div>
-                                <div class="slat s2"></div>
-                                <div class="slat s3"></div>
-                                <div class="leg l1"></div>
-                                <div class="leg l2"></div>
-                                <div class="leg l3"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="showcase-text">
-                        <h3>Pallet Standar Distribusi</h3>
-                        <p>
-                            Produk ini cocok untuk kebutuhan distribusi umum dan aktivitas pergudangan harian. Desainnya dibuat sederhana namun tetap memberikan kesan kuat, rapi, dan fungsional sehingga sangat sesuai untuk pelanggan yang membutuhkan solusi praktis dengan tampilan profesional.
-                        </p>
-                        <ul class="info-list">
-                            <li>Cocok untuk pengangkutan dan penyimpanan barang secara rutin.</li>
-                            <li>Membantu penataan stok agar lebih rapi dan mudah dipindahkan.</li>
-                            <li>Ideal untuk kebutuhan usaha skala kecil hingga menengah.</li>
-                        </ul>
-                        <span class="small-tag">Praktis dan Efisien</span>
+        <div class="showcase">
+
+            
+            <div class="showcase-item reveal">
+                <div class="showcase-media">
+                    <div class="product-square">
+                        <div class="badge-label">IBC KW 1</div>
+                        <img src="{{ asset('img/ibckw1.jpg') }}" alt="IBC KW 1" style="width:100%;">
                     </div>
                 </div>
-
-                <div class="showcase-item reverse reveal">
-                    <div class="showcase-media">
-                        <div class="product-square">
-                            <div class="badge-label">Pallet 02</div>
-                            <div class="pallet-box">
-                                <div class="top"></div>
-                                <div class="slat s1"></div>
-                                <div class="slat s2"></div>
-                                <div class="slat s3"></div>
-                                <div class="leg l1"></div>
-                                <div class="leg l2"></div>
-                                <div class="leg l3"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="showcase-text">
-                        <h3>Pallet Gudang Serbaguna</h3>
-                        <p>
-                            Model ini ditujukan bagi pelanggan yang mengutamakan fleksibilitas penggunaan. Dengan tampilan yang bersih dan susunan layout yang lebih modern, produk terlihat lebih meyakinkan dan memberi kesan bahwa barang tersimpan secara aman dalam sistem gudang yang tertata.
-                        </p>
-                        <ul class="info-list">
-                            <li>Sesuai untuk penyimpanan barang dalam area gudang dan logistik.</li>
-                            <li>Menunjang alur kerja yang lebih tertib dan efisien.</li>
-                            <li>Memberikan nilai visual yang baik saat ditampilkan dalam katalog.</li>
-                        </ul>
-                        <span class="small-tag">Rapi dan Fleksibel</span>
-                    </div>
-                </div>
-
-                <div class="showcase-item reveal">
-                    <div class="showcase-media">
-                        <div class="product-square">
-                            <div class="badge-label">Pallet 03</div>
-                            <div class="pallet-box">
-                                <div class="top"></div>
-                                <div class="slat s1"></div>
-                                <div class="slat s2"></div>
-                                <div class="slat s3"></div>
-                                <div class="leg l1"></div>
-                                <div class="leg l2"></div>
-                                <div class="leg l3"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="showcase-text">
-                        <h3>Pallet Kebutuhan Industri</h3>
-                        <p>
-                            Produk ketiga ditampilkan dengan pendekatan yang lebih kuat agar menarik perhatian pelanggan yang membutuhkan pallet untuk kegiatan industri dan distribusi yang lebih intensif. Susunan visual dan teks dibuat agar produk terlihat terpercaya, siap pakai, dan layak dipertimbangkan untuk pemesanan.
-                        </p>
-                        <ul class="info-list">
-                            <li>Memberikan kesan kokoh untuk kebutuhan distribusi yang lebih serius.</li>
-                            <li>Baik digunakan sebagai pilihan utama pada penawaran produk.</li>
-                            <li>Memperkuat citra profesional perusahaan di mata pelanggan.</li>
-                        </ul>
-                        <span class="small-tag">Kokoh dan Profesional</span>
-                    </div>
+                <div class="showcase-text">
+                    <h3>IBC Tank KW 1 (Kualitas Terbaik)</h3>
+                    <p>
+                        IBC Tank KW 1 merupakan pilihan terbaik dengan kondisi paling prima, kuat, dan tahan lama. 
+                        Cocok untuk kebutuhan industri yang mengutamakan kualitas dan keamanan tinggi dalam penyimpanan cairan.
+                    </p>
+                    <ul class="info-list">
+                        <li>Kondisi sangat baik dan siap pakai</li>
+                        <li>Kuat dan tahan lama untuk penggunaan jangka panjang</li>
+                        <li>Cocok untuk kebutuhan industri skala besar</li>
+                    </ul>
+                    <span class="small-tag">Premium Quality</span>
                 </div>
             </div>
+
+            
+            <div class="showcase-item reverse reveal">
+                <div class="showcase-media">
+                    <div class="product-square">
+                        <div class="badge-label">IBC KW 2</div>
+                        <img src="{{ asset('img/ibckw2.png') }}" alt="IBC KW 2" style="width:100%;">
+                    </div>
+                </div>
+                <div class="showcase-text">
+                    <h3>IBC Tank KW 2 (Kualitas Menengah)</h3>
+                    <p>
+                        IBC Tank KW 2 menawarkan keseimbangan antara kualitas dan harga. 
+                        Masih sangat layak digunakan untuk kebutuhan penyimpanan dan distribusi dengan efisiensi biaya yang lebih baik.
+                    </p>
+                    <ul class="info-list">
+                        <li>Kondisi baik dan layak pakai</li>
+                        <li>Harga lebih ekonomis</li>
+                        <li>Cocok untuk kebutuhan industri menengah</li>
+                    </ul>
+                    <span class="small-tag">Hemat & Efisien</span>
+                </div>
+            </div>
+
+            <!-- IBC KW 3 -->
+            <div class="showcase-item reveal">
+                <div class="showcase-media">
+                    <div class="product-square">
+                        <div class="badge-label">IBC KW 3</div>
+                        <img src="{{ asset('img/ibckw3.png') }}" alt="IBC KW 3" style="width:100%;">
+                    </div>
+                </div>
+                <div class="showcase-text">
+                    <h3>IBC Tank KW 3 (Ekonomis)</h3>
+                    <p>
+                        IBC Tank KW 3 merupakan pilihan ekonomis yang umumnya digunakan untuk penampungan limbah cair. 
+                        Dengan ciri khas warna tangki yang cenderung kuning, produk ini lebih cocok untuk kebutuhan non-food 
+                        atau limbah industri dengan fungsi penyimpanan dasar yang tetap optimal.
+                    </p>
+                    <ul class="info-list">
+                        <li>Harga paling terjangkau</li>
+                        <li>Cocok untuk penampungan limbah cair</li>
+                        <li>Digunakan untuk kebutuhan non-food / non konsumsi</li>
+                    </ul>
+                    <span class="small-tag">Ekonomis</span>
+                </div>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
     <section class="cta-section reveal">
-        <div class="container">
-            <div class="cta-box">
-                <h2>Tertarik dengan produk kami?</h2>
-                <p>
-                    Jika Anda ingin melanjutkan proses pemesanan atau memperoleh informasi lebih lanjut mengenai produk pallet yang tersedia, silakan masuk ke sistem terlebih dahulu. Halaman ini dibuat sebagai pengantar visual, sedangkan proses berikutnya dapat diarahkan langsung ke halaman login agar pelanggan segera bertransaksi.
-                </p>
-                <a href="{{ route('login') }}" class="btn btn-primary">Login untuk Memesan</a>
-            </div>
+    <div class="container">
+        <div class="cta-box">
+            <h2>Tertarik dengan produk IBC kami?</h2>
+            <p>
+                Dapatkan solusi penyimpanan cairan yang aman, efisien, dan sesuai kebutuhan Anda. 
+                Kami menyediakan berbagai pilihan IBC Tank, termasuk layanan custom untuk menyesuaikan spesifikasi produk 
+                dengan kebutuhan industri Anda. Silakan login untuk melanjutkan pemesanan atau konsultasi lebih lanjut.
+            </p>
+            <a href="{{ route('login') }}" class="btn btn-primary">Login untuk Memesan</a>
         </div>
-    </section>
-
+    </div>
+</section>
     <footer class="footer">
         <div class="container footer-content">
             <div>© 2025 CV. Syavir Jaya Utama. Seluruh hak cipta dilindungi.</div>
-            <div>Katalog produk pallet untuk kebutuhan distribusi, gudang, dan logistik.</div>
+            <div>Penyedia IBC, Jurigen, dan Pallet untuk kebutuhan distribusi dan logistik.</div>
         </div>
     </footer>
 

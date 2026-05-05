@@ -1092,11 +1092,11 @@
             @endif
         </div>
 
-        <div class="sidebar-help">
+        {{-- <div class="sidebar-help">
             <h6>Butuh Bantuan?</h6>
             <p>Gunakan menu sesuai hak akses untuk mengelola data sistem.</p>
             <button type="button" class="btn-support">Hubungi Admin</button>
-        </div>
+        </div> --}}
     </aside>
 
     <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
@@ -1115,10 +1115,10 @@
             </div>
 
             <div class="topbar-actions">
-                <button type="button" class="notification-btn">
+                {{-- <button type="button" class="notification-btn">
                     <i class="fas fa-bell"></i>
                     <span class="notification-badge">3</span>
-                </button>
+                </button> --}}
 
                 <div class="profile-dropdown">
                     <div class="profile-pill" id="profileToggle">

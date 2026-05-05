@@ -594,43 +594,46 @@
     </nav>
 
     <section class="hero">
-        <div class="container hero-wrapper">
-            <div class="hero-content">
-                <div class="hero-badge">Distributor IBC, Jurigen, dan Pallet</div>
-                <h1>Solusi Penjualan <span>IBC, Jurigen, dan Pallet</span> yang Praktis dan Profesional</h1>
-                <p>
-                    CV. Syavir Jaya Utama hadir untuk memenuhi kebutuhan usaha Anda dalam penyediaan IBC, jurigen, dan pallet dengan kualitas yang baik, layanan yang responsif, serta proses pemesanan yang efisien. Kami berfokus pada kebutuhan distribusi, pergudangan, dan penyimpanan barang agar operasional bisnis berjalan lebih optimal.
-                </p>
+    <div class="container hero-wrapper">
+        <div class="hero-content">
+            <div class="hero-badge">Distributor IBC, Jurigen, dan Pallet</div>
+            <h1>Solusi Penjualan <span>IBC, Jurigen, dan Pallet</span> yang Fleksibel dan Profesional</h1>
+            <p>
+                CV. Syavir Jaya Utama hadir untuk memenuhi kebutuhan usaha Anda dalam penyediaan IBC, jurigen, dan pallet 
+                dengan kualitas terbaik, layanan responsif, serta proses pemesanan yang efisien. 
+                <b>Kami juga menyediakan layanan custom sesuai kebutuhan, mulai dari spesifikasi produk hingga penggunaan industri,</b> 
+                sehingga lebih fleksibel untuk mendukung operasional bisnis Anda.
+            </p>
 
-                <div class="hero-buttons">
-                    <a href="{{ route('login') }}" class="btn btn-primary">Pesan Sekarang</a>
-                    <a href="{{ route('lihatbarang') }}" class="btn btn-outline">Lihat Barang</a>
-                </div>
+            <div class="hero-buttons">
+                <a href="{{ route('login') }}" class="btn btn-primary">Pesan Sekarang</a>
+                <a href="{{ route('lihatbarang') }}" class="btn btn-outline">Lihat Barang</a>
             </div>
+        </div>
 
-            <div class="hero-card">
-                <h3>Keunggulan Layanan Kami</h3>
-                <div class="hero-info">
-                    <div class="hero-info-item">
-                        <strong>Produk Berkualitas</strong>
-                        <span>IBC, jurigen, dan pallet tersedia untuk kebutuhan distribusi dan penyimpanan.</span>
-                    </div>
-                    <div class="hero-info-item">
-                        <strong>Harga Kompetitif</strong>
-                        <span>Penawaran harga yang disesuaikan untuk mendukung efisiensi usaha pelanggan.</span>
-                    </div>
-                    <div class="hero-info-item">
-                        <strong>Pelayanan Cepat</strong>
-                        <span>Respons yang cepat untuk konsultasi produk, informasi stok, dan pemesanan.</span>
-                    </div>
-                    <div class="hero-info-item">
-                        <strong>Mitra Usaha Andal</strong>
-                        <span>Kami siap menjadi rekan penyedia kebutuhan logistik dan distribusi Anda.</span>
-                    </div>
+        <div class="hero-card">
+            <h3>Keunggulan Layanan Kami</h3>
+            <div class="hero-info">
+                <div class="hero-info-item">
+                    <strong>Produk Berkualitas</strong>
+                    <span>IBC, jurigen, dan pallet tersedia untuk kebutuhan distribusi dan penyimpanan.</span>
+                </div>
+                <div class="hero-info-item">
+                    <strong>Custom Sesuai Kebutuhan</strong>
+                    <span>Dapat disesuaikan mulai dari desain, spesifikasi, hingga kebutuhan penggunaan industri.</span>
+                </div>
+                <div class="hero-info-item">
+                    <strong>Harga Kompetitif</strong>
+                    <span>Penawaran harga yang disesuaikan untuk mendukung efisiensi usaha pelanggan.</span>
+                </div>
+                <div class="hero-info-item">
+                    <strong>Pelayanan Cepat</strong>
+                    <span>Respons cepat untuk konsultasi produk, stok, dan pemesanan.</span>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <section class="section reveal">
         <div class="container">
@@ -639,9 +642,10 @@
                 Produk yang kami sediakan dirancang untuk menunjang kebutuhan industri, perdagangan, serta sistem distribusi dan penyimpanan barang secara lebih rapi, aman, dan efisien.
             </p>
 
-            <div class="product-grid">
+            <div class="product-grid" style="margin-left: -100px">
                 <div class="card">
-                    <div class="card-icon">IBC</div>
+                    {{-- <div class="card-icon">IBC</div> --}}
+                    <img src="{{ asset('img/ibc.jpg') }}" alt="" style="width: 400px" height="400px">
                     <h3>IBC Tank</h3>
                     <p>
                         IBC digunakan untuk kebutuhan penyimpanan dan distribusi cairan dalam kapasitas besar. Produk ini sesuai untuk kebutuhan industri yang memerlukan wadah yang kuat, efisien, dan mudah dipindahkan.
@@ -654,7 +658,8 @@
                 </div>
 
                 <div class="card">
-                    <div class="card-icon">JG</div>
+                    {{-- <div class="card-icon">JG</div> --}}
+                    <img src="{{ asset('img/jurigen.png') }}" alt="" style="width: 400px" height="400px">
                     <h3>Jurigen</h3>
                     <p>
                         Jurigen tersedia untuk berbagai kebutuhan penyimpanan cairan dengan bentuk yang praktis, mudah digunakan, serta mendukung proses distribusi dalam skala kecil hingga menengah.
@@ -667,77 +672,85 @@
                 </div>
 
                 <div class="card">
-                    <div class="card-icon">PL</div>
+                    {{-- <div class="card-icon">PL</div> --}}
+                    <img src="{{ asset('img/pallet.jpg') }}" alt="" style="width: 400px" height="400px">
                     <h3>Pallet</h3>
                     <p>
-                        Pallet membantu proses pergudangan dan distribusi barang agar lebih tertata dan mudah dipindahkan. Produk ini sangat penting dalam sistem logistik modern.
+                        Tingkatkan efisiensi dan keamanan distribusi dengan pallet berkualitas tinggi. Cocok untuk pergudangan modern serta sebagai alas kaki IBC agar lebih stabil.
                     </p>
                     <ul>
                         <li>Mendukung aktivitas gudang</li>
                         <li>Mempermudah angkut barang</li>
                         <li>Meningkatkan efisiensi distribusi</li>
+                        <li>Cocok sebagai alas kaki IBC agar lebih aman dan stabil</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section reveal">
-        <div class="container">
-            <div class="about-preview">
-                <div class="about-box">
-                    <h3>Tentang Perusahaan</h3>
-                    <p>
-                        CV. Syavir Jaya Utama merupakan perusahaan yang bergerak di bidang penjualan IBC, jurigen, dan pallet untuk mendukung kebutuhan distribusi, penyimpanan, serta logistik berbagai sektor usaha. Kami berupaya menghadirkan produk yang sesuai kebutuhan pelanggan dengan kualitas yang terjaga dan layanan yang profesional.
-                    </p>
-                    <p>
-                        Dalam menjalankan usaha, kami menempatkan kepuasan pelanggan sebagai prioritas. Oleh karena itu, kami mengedepankan kejelasan informasi produk, kecepatan respons, serta kemudahan proses pemesanan agar kerja sama yang terjalin dapat berlangsung secara optimal dan berkelanjutan.
-                    </p>
+<section class="section reveal">
+    <div class="container">
+        <div class="about-preview">
+            <div class="about-box">
+                <h3>Tentang Perusahaan</h3>
+                <p>
+                    CV. Syavir Jaya Utama merupakan perusahaan yang bergerak di bidang penjualan IBC, jurigen, dan pallet 
+                    untuk mendukung kebutuhan distribusi, penyimpanan, serta logistik berbagai sektor usaha. 
+                    Kami menghadirkan produk berkualitas yang dapat <b>disesuaikan (custom) dengan kebutuhan pelanggan</b>, 
+                    mulai dari spesifikasi hingga penggunaan industri.
+                </p>
+                <p>
+                    Dalam menjalankan usaha, kami menempatkan kepuasan pelanggan sebagai prioritas utama. 
+                    Oleh karena itu, kami mengedepankan kejelasan informasi produk, kecepatan respons, 
+                    serta kemudahan proses pemesanan agar kerja sama yang terjalin berjalan optimal dan berkelanjutan.
+                </p>
 
-                    <div class="feature-list">
-                        <div class="feature-item">
-                            <h4>Kualitas Produk</h4>
-                            <p>Produk dipilih untuk menunjang kebutuhan usaha dengan standar yang baik.</p>
-                        </div>
-                        <div class="feature-item">
-                            <h4>Pelayanan Profesional</h4>
-                            <p>Tim siap membantu informasi dan kebutuhan pemesanan dengan responsif.</p>
-                        </div>
-                        <div class="feature-item">
-                            <h4>Harga Efisien</h4>
-                            <p>Penawaran harga dirancang agar kompetitif dan sesuai kebutuhan pelanggan.</p>
-                        </div>
-                        <div class="feature-item">
-                            <h4>Komitmen Jangka Panjang</h4>
-                            <p>Kami berorientasi pada kerja sama usaha yang profesional dan terpercaya.</p>
-                        </div>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <h4>Kualitas Produk</h4>
+                        <p>Produk dipilih dengan standar terbaik untuk menunjang kebutuhan industri dan distribusi.</p>
                     </div>
-                </div>
-
-                <div class="contact-box">
-                    <h3>Hubungi Kami</h3>
-                    <p>
-                        Untuk informasi stok, konsultasi kebutuhan barang, dan pemesanan, Anda dapat menghubungi CV. Syavir Jaya Utama melalui kontak berikut.
-                    </p>
-
-                    <ul class="contact-list">
-                        <li><strong>Perusahaan:</strong> CV. Syavir Jaya Utama</li>
-                        <li><strong>Alamat:</strong> Silakan isi alamat perusahaan</li>
-                        <li><strong>Telepon:</strong> Silakan isi nomor telepon</li>
-                        <li><strong>Email:</strong> Silakan isi email perusahaan</li>
-                        <li><strong>Jam Operasional:</strong> Senin - Sabtu, 08.00 - 17.00</li>
-                    </ul>
-
-                    <div class="mini-cta">
-                        <p>
-                            Untuk melihat penjelasan perusahaan secara lebih lengkap, silakan buka halaman tentang kami.
-                        </p>
-                        <a href="{{ route('tentangkami') }}" class="btn btn-primary">Buka Tentang Kami</a>
+                    <div class="feature-item">
+                        <h4>Custom Sesuai Kebutuhan</h4>
+                        <p>Menyediakan layanan penyesuaian produk sesuai kebutuhan penggunaan dan spesifikasi pelanggan.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>Pelayanan Profesional</h4>
+                        <p>Tim siap memberikan informasi dan membantu proses pemesanan dengan cepat dan responsif.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>Harga Kompetitif</h4>
+                        <p>Penawaran harga yang efisien dan sesuai dengan kebutuhan serta skala usaha pelanggan.</p>
                     </div>
                 </div>
             </div>
+
+            <div class="contact-box">
+                <h3>Hubungi Kami</h3>
+                <p>
+                    Untuk informasi stok, konsultasi kebutuhan, termasuk <b>permintaan custom produk</b>, 
+                    silakan hubungi CV. Syavir Jaya Utama melalui kontak berikut.
+                </p>
+
+                <ul class="contact-list">
+                    <li><strong>Perusahaan      :</strong> CV. Syavir Jaya Utama</li>
+                    <li><strong>Alamat          :</strong> Badas RT 17 RW 06, Barengkrajan - Krian</li>
+                    <li><strong>Telepon         :</strong> 089530453663</li>
+                    <li><strong>Email           :</strong> aniefafifajaya@gmail.com</li>
+                    <li><strong>Jam Operasional :</strong> Senin - Sabtu, 08.00 - 17.00</li>
+                </ul>
+
+                <div class="mini-cta">
+                    <p>
+                        Ingin mengetahui lebih detail tentang layanan dan produk kami? Kunjungi halaman profil perusahaan.
+                    </p>
+                    <a href="{{ route('tentangkami') }}" class="btn btn-primary">Buka Tentang Kami</a>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <footer class="footer">
         <div class="container footer-content">

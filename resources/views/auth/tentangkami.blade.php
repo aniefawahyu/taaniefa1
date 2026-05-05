@@ -189,53 +189,64 @@
     </nav>
 
     <section class="page-header">
-        <div class="container">
-            <h1>Tentang CV. Syavir Jaya Utama</h1>
+    <div class="container">
+        <h1>Tentang CV. Syavir Jaya Utama</h1>
+        <p>
+            CV. Syavir Jaya Utama merupakan perusahaan yang bergerak di bidang penyediaan IBC Tank, jurigen, dan pallet 
+            untuk mendukung kebutuhan penyimpanan, distribusi, dan logistik berbagai sektor industri. 
+            Kami tidak hanya menyediakan produk berkualitas, tetapi juga layanan <b>custom sesuai kebutuhan pelanggan</b> 
+            agar lebih fleksibel dalam mendukung operasional usaha.
+        </p>
+    </div>
+</section>
+
+<section class="content-section">
+    <div class="container">
+        <div class="content-box">
+            <h2>Profil Perusahaan</h2>
             <p>
-                CV. Syavir Jaya Utama merupakan perusahaan yang berfokus pada penjualan IBC, jurigen, dan pallet untuk mendukung berbagai kebutuhan distribusi, pergudangan, dan penyimpanan barang. Kami berkomitmen untuk memberikan produk yang layak, layanan yang profesional, dan proses pemesanan yang efisien bagi setiap pelanggan.
+                Dalam menjalankan kegiatan usaha, CV. Syavir Jaya Utama menempatkan kualitas produk dan layanan sebagai prioritas utama. 
+                Kami memahami bahwa setiap pelanggan memiliki kebutuhan yang berbeda, sehingga kami menghadirkan solusi yang dapat 
+                disesuaikan, mulai dari spesifikasi produk hingga penggunaan di lapangan.
+            </p>
+            <p>
+                Produk yang kami sediakan meliputi IBC Tank untuk penyimpanan cairan dalam kapasitas besar, jurigen untuk kebutuhan distribusi 
+                yang lebih praktis, serta pallet untuk menunjang aktivitas pergudangan dan logistik. Selain itu, kami juga menyediakan layanan 
+                custom untuk menyesuaikan produk dengan kebutuhan industri, termasuk penggunaan untuk distribusi maupun penampungan limbah.
+            </p>
+            <p>
+                Dengan pengalaman dan komitmen yang kami miliki, kami berupaya menjadi mitra usaha yang dapat diandalkan dalam jangka panjang, 
+                dengan terus meningkatkan kualitas produk, pelayanan, dan kepercayaan pelanggan.
             </p>
         </div>
-    </section>
 
-    <section class="content-section">
-        <div class="container">
-            <div class="content-box">
-                <h2>Profil Perusahaan</h2>
+        <div class="grid">
+            <div class="mini-box">
+                <h3>Visi</h3>
                 <p>
-                    Dalam menjalankan kegiatan usaha, CV. Syavir Jaya Utama menempatkan kualitas layanan sebagai salah satu prioritas utama. Kami memahami bahwa kebutuhan setiap pelanggan dapat berbeda, sehingga kami berusaha memberikan informasi yang jelas, respons yang cepat, dan penawaran produk yang sesuai dengan kebutuhan operasional pelanggan.
-                </p>
-                <p>
-                    Produk yang kami sediakan meliputi IBC untuk penyimpanan cairan dalam kapasitas besar, jurigen untuk kebutuhan distribusi dan penyimpanan yang lebih praktis, serta pallet untuk menunjang aktivitas logistik dan pergudangan. Dengan menyediakan produk-produk tersebut, kami berupaya membantu pelanggan dalam meningkatkan efisiensi dan keteraturan proses kerja mereka.
-                </p>
-                <p>
-                    Ke depan, kami ingin terus berkembang sebagai mitra usaha yang dapat dipercaya, dengan menjaga kualitas produk, memperbaiki layanan, dan membangun hubungan kerja sama jangka panjang yang saling menguntungkan.
+                    Menjadi mitra terpercaya dalam penyediaan IBC Tank, jurigen, dan pallet, serta layanan custom 
+                    untuk mendukung kebutuhan industri dan distribusi pelanggan.
                 </p>
             </div>
 
-            <div class="grid">
-                <div class="mini-box">
-                    <h3>Visi</h3>
-                    <p>
-                        Menjadi perusahaan yang terpercaya dalam penyediaan IBC, jurigen, dan pallet untuk mendukung kebutuhan distribusi dan logistik pelanggan.
-                    </p>
-                </div>
+            <div class="mini-box">
+                <h3>Misi</h3>
+                <p>
+                    Menyediakan produk berkualitas, menghadirkan layanan profesional, serta memberikan solusi yang fleksibel 
+                    melalui layanan custom sesuai kebutuhan pelanggan.
+                </p>
+            </div>
 
-                <div class="mini-box">
-                    <h3>Misi</h3>
-                    <p>
-                        Menyediakan produk yang berkualitas, memberikan pelayanan yang profesional, serta membangun hubungan kerja sama yang berorientasi pada kepuasan pelanggan.
-                    </p>
-                </div>
-
-                <div class="mini-box">
-                    <h3>Komitmen</h3>
-                    <p>
-                        Kami berkomitmen untuk menjaga mutu layanan, memberikan respons yang cepat, dan menghadirkan solusi produk yang sesuai dengan kebutuhan usaha pelanggan.
-                    </p>
-                </div>
+            <div class="mini-box">
+                <h3>Komitmen</h3>
+                <p>
+                    Kami berkomitmen untuk memberikan pelayanan terbaik, respons yang cepat, serta solusi produk yang tepat guna 
+                    untuk mendukung kelancaran operasional usaha pelanggan.
+                </p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <footer class="footer">
         <div class="container">

@@ -410,21 +410,23 @@
                     <div class="register-badge">Pendaftaran Akun Baru</div>
                     <h1>Buat akun untuk mulai <span>mengakses sistem</span></h1>
                     <p>
-                        Silakan daftar untuk menggunakan sistem CV. Syavir Jaya Utama. Setelah akun dibuat, Anda dapat melanjutkan proses login dan menggunakan layanan pemesanan produk seperti IBC, jurigen, dan pallet dengan tampilan yang konsisten dan profesional.
+                        Daftarkan akun Anda untuk mengakses layanan pemesanan IBC Tank, pallet, dan jurigen. 
+                        Kami menyediakan berbagai pilihan produk berkualitas serta layanan custom sesuai kebutuhan, 
+                        sehingga dapat menyesuaikan dengan kebutuhan distribusi, penyimpanan, maupun industri Anda.
                     </p>
 
                     <div class="feature-points">
                         <div class="feature-item">
-                            <strong>Pendaftaran mudah</strong>
-                            <span>Form dibuat sederhana agar proses pembuatan akun berjalan cepat dan jelas.</span>
+                            <strong>Pendaftaran Mudah</strong>
+                            <span>Proses registrasi cepat dan sederhana agar Anda dapat segera mulai melakukan pemesanan.</span>
                         </div>
                         <div class="feature-item">
-                            <strong>Tampilan selaras</strong>
-                            <span>Desain register disesuaikan dengan dashboard dan halaman login agar tetap konsisten.</span>
+                            <strong>Produk Lengkap & Custom</strong>
+                            <span>Tersedia IBC Tank, pallet, dan jurigen dengan opsi custom sesuai kebutuhan penggunaan.</span>
                         </div>
                         <div class="feature-item">
-                            <strong>Siap digunakan</strong>
-                            <span>Setelah registrasi berhasil, akun dapat digunakan untuk masuk ke sistem dan melanjutkan aktivitas pengguna.</span>
+                            <strong>Siap Digunakan</strong>
+                            <span>Setelah registrasi, akun langsung dapat digunakan untuk login dan melakukan pemesanan.</span>
                         </div>
                     </div>
                 </div>

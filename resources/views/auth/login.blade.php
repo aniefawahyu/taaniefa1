@@ -420,21 +420,23 @@
                     <div class="login-badge">Akses Sistem Pemesanan</div>
                     <h1>Masuk ke akun <span>CV. Syavir Jaya Utama</span></h1>
                     <p>
-                        Silakan login untuk melanjutkan proses pemesanan IBC, jurigen, dan pallet. Halaman ini dirancang agar selaras dengan tampilan dashboard, jadi transisinya tidak terasa seperti pindah ke dunia lain.
+                        Silakan login untuk melanjutkan pemesanan IBC Tank serta produk pendukung lainnya. 
+                        Kami juga menyediakan layanan custom sesuai kebutuhan Anda, 
+                        sehingga proses pemesanan dapat disesuaikan dengan kebutuhan industri dan usaha Anda.
                     </p>
 
                     <div class="feature-points">
                         <div class="feature-item">
-                            <strong>Proses lebih cepat</strong>
-                            <span>Masuk ke sistem untuk mengakses pemesanan dan kebutuhan transaksi dengan lebih terarah.</span>
+                            <strong>Pemesanan Lebih Mudah</strong>
+                            <span>Akses sistem untuk melihat produk, melakukan pemesanan, dan mengelola transaksi dengan cepat.</span>
                         </div>
                         <div class="feature-item">
-                            <strong>Tampilan konsisten</strong>
-                            <span>Nuansa warna, bentuk tombol, dan layout disesuaikan agar serasi dengan dashboard utama.</span>
+                            <strong>Produk & Custom</strong>
+                            <span>Tersedia berbagai pilihan IBC serta layanan custom sesuai spesifikasi kebutuhan Anda.</span>
                         </div>
                         <div class="feature-item">
-                            <strong>Siap untuk operasional</strong>
-                            <span>Cocok untuk alur penjualan produk seperti IBC, jurigen, dan pallet secara profesional.</span>
+                            <strong>Layanan Profesional</strong>
+                            <span>Didukung pelayanan responsif untuk membantu proses pemesanan hingga selesai.</span>
                         </div>
                     </div>
                 </div>
