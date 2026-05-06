@@ -1092,11 +1092,13 @@
             @endif
         </div>
 
-        {{-- <div class="sidebar-help">
+        <div class="sidebar-help">
             <h6>Butuh Bantuan?</h6>
-            <p>Gunakan menu sesuai hak akses untuk mengelola data sistem.</p>
-            <button type="button" class="btn-support">Hubungi Admin</button>
-        </div> --}}
+            <p>Silakan menghubungi nomor telepon atau email yang tersedia pada halaman utama</p>
+            <button type="button" class="btn-support" onclick="window.location.href='{{ url('/') }}'">
+                Hubungi Admin
+            </button>
+        </div>
     </aside>
 
     <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
